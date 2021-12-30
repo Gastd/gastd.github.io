@@ -52,14 +52,14 @@
   }
 }
 
-.page-no-sidebar {
+.page-no-toc {
   @include breakpoint($large) {
     float: right;
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width-narrow});
   }
 
   @include breakpoint($x-large) {
-    width: calc(100%);
+    width: calc(100% - #{$right-sidebar-width});
   }
 
   .page__inner-wrap {
