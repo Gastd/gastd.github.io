@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-layout: archive
+layout: single-full
 permalink: /resume/
 author_profile: true
 ---
